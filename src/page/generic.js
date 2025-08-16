@@ -1,17 +1,23 @@
 
-export function weight(component) {
+function weight(component) {
     return `${component.weight ? `flex: ${component.weight};` : ""}`;
 }
 
-export function height(component) {
+function height(component) {
     return `${component.height ? `height: ${component.height};` : ""}`;
 }
 
-export default function all(component) {
+function all(component) {
     let body = " style=\"";
 
     body += weight(component);
     body += height(component);
 
     return body + "\"";
+}
+
+module.exports = {
+    weight: weight,
+    height: height,
+    all: all
 }

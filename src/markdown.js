@@ -1,18 +1,20 @@
 
 // Requirements
-import { marked } from "marked";
+const { marked } = require("marked");
 
 // The renderer for markdown
 const renderer = new marked.Renderer();
 
 // Override the methods
-renderer.link = (t) => {
-  return `<a class="md-link" href="${t.href}" target="_blank" rel="noopener noreferrer">${t.text}</a>`;
+renderer.link = function (href, title, text) {
+    return `<a class="md-link" href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 };
 
 marked.setOptions({ renderer });
 
 // Parse markdown
-export default function parse(text) {
+function parse(text) {
     return marked.parseInline(text);
 }
+
+module.exports = parse;

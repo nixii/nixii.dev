@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "express": "^5.1.0",
-    "marked": "^16.1.2"
+    "marked": "^4.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
@@ -10,5 +10,5 @@
     "devStart": "nodemon src/main.js"
   },
   "main": "src/main.js",
-  "type": "module"
+  "type": "commonjs"
 }

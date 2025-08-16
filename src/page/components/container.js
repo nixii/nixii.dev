@@ -1,26 +1,22 @@
 
 // Imports
-import { existsSync } from "fs";
-import { fileURLToPath } from "url";
-import { join, dirname } from "path";
-import all from "../generic.js";
-
-// blehh
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const { existsSync } = require("fs");
+const { fileURLToPath } = require("url");
+const { join, dirname } = require("path");
+const { all} = require("../generic.js");
 
 // The template
 const template = "<div class=\"component-container\"{{style}}>{{content}}</div>";
 
 // Create a container
-export default async function create(component) {
+function create(component) {
     let body = '';
     
     for (const c of component.components) {
         const componentPath = join(__dirname, `${c.type}.js`);
         if (existsSync(componentPath)) {
-            const { default: renderComponent } = await import(componentPath);
-            let t = await renderComponent(c);
+            const renderComponent = require(componentPath);
+            let t = renderComponent(c);
             body += t;
         }
     }
@@ -29,3 +25,5 @@ export default async function create(component) {
         .replace("{{content}}", body)
         .replace("{{style}}", all(component));
 }
+
+module.exports = create;

@@ -1,13 +1,9 @@
 
-import createPage from "./page/renderer.js";
-import express from "express";
-import { fileURLToPath } from "url";
-import { join, dirname } from "path";
-import { existsSync, readFileSync } from "fs";
-
-// blehh
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const createPage = require("./page/renderer.js");
+const express = require("express");
+const { fileURLToPath } = require("url");
+const { join, dirname } = require("path");
+const { existsSync, readFileSync } = require("fs");
 
 const app = express();
 
