@@ -42,7 +42,7 @@
                                     "components": [
                                         {
                                             "type": "paragraph",
-                                            "text": "[No GitHub repository yet, sorry!](/projects#)",
+                                            "text": "[View the GitHub repository!](https://github.com/nixii/nixii.dev)",
                                             "weight": 1
                                         },
                                         {
