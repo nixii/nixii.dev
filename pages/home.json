@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "nixii.dev"
+    },
+    "components": [
+        {
+            "type": "title",
+            "text": "home"
+        },
+        {
+            "type": "subtitle",
+            "text": "about me"
+        },
+        {
+            "type": "container",
+            "components": [
+                {
+                    "type": "image",
+                    "src": "/static/img/nixii.png",
+                    "alt": "My GitHub profile picture.",
+                    "height": "100px"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Heylo, I am Nixii! I am a programmer and music composer based in California. I have an interest in many things, including astronomy, oceanography, linguistics, game development, art, and cryptography. All of my completed projects will be here, so be sure to check them out!<br>For most of my projects here, you are able to view the source code on GitHub! The link should be right on the projects page."
+                }
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "software skills"
+        },
+        {
+            "type": "paragraph",
+            "text": "With my experience as a programmer, I have some alright experience with many languages and tools for development. Here is the list of just the ones I can remember off the top of my head!"
+        },
+        {
+            "type": "container",
+            "components": [
+                {
+                    "type": "vertical_align",
+                    "components": [
+                        {
+                            "type": "subtitle",
+                            "text": "coding languages"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "- python<br>- rust<br>- javascript<br>- java<br>- c<br>- zsh<br>- lua<br>- and many more can be learned quickly!"
+                        }
+                    ],
+                    "weight": "1"
+                },
+                {
+                    "type": "vertical_align",
+                    "components": [
+                        {
+                            "type": "subtitle",
+                            "text": "tools"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "- godot<br>- pretty much any ide (i can exit vim!)<br>- git<br>- github<br>- roblox"
+                        }
+                    ],
+                    "weight": "1"
+                }
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "actively learning"
+        },
+        {
+            "type": "paragraph",
+            "text": "In addition to those, I am actively learning multiple other subjects! Most of these are just for fun, as they are stuff I find interesting."
+        },
+        {
+            "type": "container",
+            "components": [
+                {
+                    "type": "paragraph",
+                    "text": "- mandarin<br>- greek<br>- spanish<br>- aarch64 assembly<br>- os dev on a raspberry pi"
+                }
+            ]
+        }
+    ]
+}

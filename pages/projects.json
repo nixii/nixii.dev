@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "title": "projects"
+    },
+    "components": [
+        {
+            "type": "title",
+            "text": "projects"
+        },
+        {
+            "type": "paragraph",
+            "text": "I have only really one finished project that can be shown at this time, and that is this website! It uses a custom system of components to make creating the webpages much faster and easier, as I can just edit a JSON file."
+        },
+        {
+            "type": "subtitle",
+            "text": "project list"
+        },
+        {
+            "type": "vertical_align",
+            "components": [
+                {
+                    "type": "container",
+                    "components": [
+                        {
+                            "type": "vertical_align",
+                            "components": [
+                                {
+                                    "type": "horizontal_align",
+                                    "components": [
+                                        {
+                                            "type": "name",
+                                            "text": "nixii.dev"
+                                        },
+                                        {
+                                            "type": "paragraph",
+                                            "text": "This website is coded completely myself in raw HTML, CSS, and JS. The server uses a component system to construct the pages from JSON files. Not the most elegant solution, no, but the most efficient for someone who isn't proficient in webdev."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "horizontal_align",
+                                    "components": [
+                                        {
+                                            "type": "paragraph",
+                                            "text": "[No GitHub repository yet, sorry!](/projects#)",
+                                            "weight": 1
+                                        },
+                                        {
+                                            "type": "paragraph",
+                                            "text": "[You can view this project right here!](/projects#)",
+                                            "weight": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

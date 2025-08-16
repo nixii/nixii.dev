@@ -1,0 +1,43 @@
+
+.component-title {
+    font-size: xx-large;
+    border-bottom: 4px solid lightgray;
+    width: 70%
+}
+
+.component-subtitle {
+    font-size: x-large;
+    color: var(--bg-color);
+    border-bottom: 4px solid lightgray;
+    width: 50%;
+}
+
+.component-name {
+    font-size: x-large;
+    color: var(--bg-color);
+}
+
+.component-container {
+    border: 4px solid var(--topbar-selected);
+    padding: 10px;
+    width: calc(100% - 28px);
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.component-vertical-align {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.component-horizontal-align {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

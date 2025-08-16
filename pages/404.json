@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "title": "404"
+    },
+    "components": [
+        {
+            "type": "title",
+            "text": "404 Not Found - Go Back"
+        }
+    ]
+}

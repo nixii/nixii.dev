@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "title": "music"
+    },
+    "components": [
+        {
+            "type": "title",
+            "text": "music"
+        },
+        {
+            "type": "paragraph",
+            "text": "I am a hobbyist music producer, so have fun checking out my completed tracks!"
+        },
+        {
+            "type": "subtitle",
+            "text": "current favorite song"
+        },
+        {
+            "type": "paragraph",
+            "text": "*weka sina* by Tanger, jan Mika, and stimkitten [here](https://youtu.be/hdatjEQ6fV0)."
+        },
+        {
+            "type": "subtitle",
+            "text": "my songs"
+        },
+        {
+            "type": "vertical_align",
+            "components": [
+                {
+                    "type": "container",
+                    "components": [
+                        {
+                            "type": "vertical_align",
+                            "components": [
+                                {
+                                    "type": "horizontal_align",
+                                    "components": [
+                                        {
+                                            "type": "image",
+                                            "src": "/static/img/covers/red_flash.png",
+                                            "height": "150px"
+                                        },
+                                        {
+                                            "type": "vertical_align",
+                                            "components": [
+                                                {
+                                                    "type": "subtitle",
+                                                    "text": "Red Flash - 31 / 3 / 2024"
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "text": "This song was inspired by the DOOM Eternal theme, with harsh drums and electronic instruments. It is one of the first finished tracks I have made."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "horizontal_align",
+                                    "components": [
+                                        {
+                                            "type": "paragraph",
+                                            "text": "[listen to a sample](/music/Red_Flash.ogg)",
+                                            "weight": 1
+                                        },
+                                        {
+                                            "type": "paragraph",
+                                            "text": "[stream it on youtube](https://www.youtube.com/watch?v=3nVB-1PUgJw)",
+                                            "weight": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

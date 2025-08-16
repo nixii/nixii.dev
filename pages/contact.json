@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "title": "contact"
+    },
+    "components": [
+        {
+            "type": "title",
+            "text": "contact"
+        },
+        {
+            "type": "paragraph",
+            "text": "You can contact me on any of the following:<br>* Discord: @nixii.dev<br>* Email: ursaemajor@duck.com"
+        }
+    ]
+}
